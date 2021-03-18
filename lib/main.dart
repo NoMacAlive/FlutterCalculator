@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app/pages/calculator.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_app/pages/fireStoreExample.dart';
+import 'package:flutter_app/pages/localPersistanceExample.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MyApp());
 }
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: FireStoreExample(),
+      home: LocalPersistance(),
     );
   }
 
