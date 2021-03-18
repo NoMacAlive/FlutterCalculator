@@ -1,4 +1,4 @@
-name: mulimobile_guangya
+name: flutter_app
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -23,13 +23,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
+  firebase_core: "0.7.0"
+  cloud_firestore: "^0.16.0+1"
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   math_expressions: ^2.1.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
