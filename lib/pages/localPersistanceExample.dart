@@ -22,7 +22,7 @@ class _LocalPersistanceState extends State<LocalPersistance> {
     // TODO: implement build
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Example')
+        title: new Text('Journal List')
       ),
       body: new Text("local Persistance")
     );
