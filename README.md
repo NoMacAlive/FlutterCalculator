@@ -1,6 +1,6 @@
 # mulimobile_guangya
 
-A new Flutter application.
+This is a flutter app for journal management
 
 ## Getting Started
 
